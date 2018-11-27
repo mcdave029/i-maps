@@ -148,17 +148,63 @@ div.cart-container .cart-summary {
   padding: 0px 1em;
 }
 
-div.cart-container .cart-summary button {
+div.cart-container .cart-summary a {
   border: 0;
   background-color: green;
   color: white;
   padding: 12px;
   margin: 0 0 10px;
-  width: 100%;
+  display: block;
+  text-align: center;
+  text-decoration: none;
 }
-
 
 div.cart-container .cart-summary p span,
 div.cart-container .cart-summary h4 span {
   float: right;
+}
+
+form.checkout-form {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+form.checkout-form label {
+  display: block;
+  margin: 10px 0;
+}
+
+form.checkout-form input[type="text"],
+form.checkout-form input[type="email"] {
+  font-size: 18px;
+  padding: 10px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+form.checkout-form textarea {
+  box-sizing: border-box;
+  width: 100%;
+  resize: none;
+}
+
+form.checkout-form select {
+  width: 100%;
+  font-size: 20px;
+}
+
+form.checkout-form p span,
+form.checkout-form h4 span {
+  float: right;
+}
+
+form.checkout-form input[type="submit"] {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+  display: block;
+  margin: 15px auto 30px;
+  padding: 10px;
+  font-size: 16px;
+  width: 200px;
 }
