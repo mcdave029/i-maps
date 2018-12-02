@@ -51,6 +51,22 @@ body {
   color: #fff;
 }
 
+.navbar a.logo:before {
+  content: "";
+  background-image: url('../img/logo.jpg');
+  height: 36px;
+  width: 82px;
+  display: block;
+  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.navbar a.logo {
+  padding: 5px;
+  margin: 0 20px;
+}
+
 .dropdown-content {
   display: none;
   position: absolute;
