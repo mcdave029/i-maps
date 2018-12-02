@@ -358,3 +358,50 @@ img.center {
   background-repeat: no-repeat;
   background-position: 50% 50%;
 }
+
+.buy-now-btn {
+  background-color: #28a745;
+  color: #fff;
+  text-decoration: none;
+  padding: 12px;
+  width: 150px;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.product { margin-bottom: 50px }
+
+.product .title strong {
+  float: right;
+  font-size: 16px;
+}
+
+.product .title {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.product .image {
+  height: 400px;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  position: relative;
+  background-color: #c5c5c5;
+}
+
+
+.product .image img {
+  width: 600px;
+  display: none;
+  margin: 0 auto;
+}
+
+.product .image:hover {
+  background-image: none !important;
+}
+
+.product .image:hover img {
+  display: block;
+}
