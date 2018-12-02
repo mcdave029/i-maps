@@ -239,3 +239,30 @@ img.center {
   margin: 30px auto;
   display: block;
 }
+
+.owner {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.owner-image {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  height: 150px;
+  width: 150px;
+}
+
+.owner-details {
+  border: 1px solid;
+  margin-left: 30px;
+  padding: 0 1em;
+  width: calc(100% - 150px)
+}
+
+.owner-image.kim { background-image: url('../img/kim.png') }
+.owner-image.justine { background-image: url('../img/justine.png') }
+.owner-image.jericho { background-image: url('../img/jericho.png') }
+.owner-image.carlo { background-image: url('../img/carlo.png') }
+.owner-image.albert { background-image: url('../img/albert.png') }
