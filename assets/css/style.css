@@ -5,6 +5,11 @@ html * {
 body {
   margin: 0;
   background-color: #f4f4f4;
+  background-image: url("../img/background image.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-attachment: fixed;
 }
 
 .navbar {
@@ -356,14 +361,6 @@ img.center {
   right: 0;
   bottom: 0;
   text-align: center;
-}
-
-.index-background {
-  height: 100%;
-  background-image: url("../img/background image.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
 }
 
 .buy-now-btn {
