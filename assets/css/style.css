@@ -107,7 +107,14 @@ div.cart-container .cart-items li .item-image {
   margin-top: 1em;
   margin-right: 1em;
   background-color: gray;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
 }
+
+div.cart-container .cart-items li .item-image.board-game { background-image: url('../img/Product 1.jpg') }
+div.cart-container .cart-items li .item-image.hoodie-bag { background-image: url('../img/Product 3.jpg') }
+div.cart-container .cart-items li .item-image.scratch-map { background-image: url('../img/Product 2.jpg') }
 
 div.cart-container .cart-items li img {
   position: absolute;
